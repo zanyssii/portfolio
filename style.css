@@ -1,4 +1,4 @@
-/*------------ Main Structure ------------*/
+
 
 html {
     background: url("http://www.blended-html.com/background-images/bi-background-blue.png") repeat;
@@ -53,14 +53,14 @@ footer {
     text-align: left;
 }
 
-/* Clearfix hack */
+
 .about,.portfolio,.contact::after{
     content: "";
     display: block;
     clear: both;
 }
 
-/* Define h1 style */
+
 h1 {
     position: fixed;
     font-size: 24px;
@@ -70,7 +70,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* Define h2 style */
+
 h2 {
     font-size: 34px;
     font-weight: bold;
@@ -79,14 +79,14 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* Define hr style */
+
 hr {
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #dddddd;
 }
 
-/*---------- Main Structure End ----------*/
+
 
 
 /*------------ Navigation ------------*/
@@ -146,7 +146,7 @@ hr {
 /*---------- Navigation End ----------*/
 
 
-/*------------ About Page ------------*/
+
 
 .about p {
     text-align: justify;
@@ -159,10 +159,10 @@ img.profile {
     height: 230px;
 }
 
-/*---------- About Page End ----------*/
 
 
-/*------------ Portfolio Page ------------*/
+
+
 
 .portfolio ul {
     width: 610px;
@@ -195,10 +195,10 @@ img.profile {
     transform: scale(1.1);
 }
 
-/*---------- Portfolio Page End ----------*/
 
 
-/*------------ Contact Page ------------*/
+
+
 
 .form {
     width: 910px; /* 960 - 50 from padding */
@@ -237,4 +237,4 @@ textarea {
   background-color: #53BFBA;
 }
 
-/*---------- Contact Page End ----------*/
+
